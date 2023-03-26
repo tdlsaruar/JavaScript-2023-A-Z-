@@ -1,0 +1,79 @@
+JavaScript operators in a beginner-friendly way.
+
+In JavaScript, an operator is a symbol that performs a specific action on one or more values (also called operands). Operators can be used to perform basic arithmetic operations (like addition, subtraction, multiplication, and division), as well as more advanced operations like comparing values, assigning values to variables, and more.
+
+Here are some examples of commonly used operators in JavaScript:
+
+Addition (+): Adds two or more values together. For example:
+bash
+let sum = 5 + 7;
+console.log(sum); // Output: 12
+
+Subtraction (-): Subtracts one value from another. For example:
+let difference = 10 - 5;
+console.log(difference); // Output: 5
+
+Multiplication (*): Multiplies two or more values together. For example:
+let product = 2 * 6;
+console.log(product); // Output: 12
+
+Division (/): Divides one value by another. For example:
+let quotient = 15 / 3;
+console.log(quotient); // Output: 5
+
+Modulus (%): Returns the remainder of a division operation. For example:
+let remainder = 15 % 4;
+console.log(remainder); // Output: 3
+
+Comparison operators (==, !=, >, <, >=, <=): Used to compare two values and return a Boolean (true or false) result. For example:
+let num1 = 10;
+let num2 = 5;
+
+console.log(num1 > num2); // Output: true
+console.log(num1 == num2); // Output: false
+
+Assignment operators (=, +=, -=, *=, /=): Used to assign values to variables. For example:
+let x = 10;
+x += 5; // This is equivalent to writing: x = x + 5;
+
+console.log(x); // Output: 15
+
+
+
+
+
+  					Here are some frequently asked questions (FAQs) about operators in JavaScript:
+
+Q: What are the types of operators in JavaScript?
+
+A: There are several types of operators in JavaScript, including arithmetic operators, comparison operators, logical operators, assignment operators, and more.
+
+Q: What is the order of precedence for JavaScript operators?
+
+A: JavaScript follows a specific order of precedence for operators, which determines the order in which they are evaluated. For example, multiplication and division have a higher precedence than addition and subtraction, so they are evaluated first. You can use parentheses to group expressions and change the order of evaluation.
+
+Q: What is the difference between == and === operators in JavaScript?
+
+A: The == operator is a loose comparison operator that checks if two values are equal, even if they are of different types. The === operator is a strict comparison operator that checks if two values are equal and of the same type. For example, 5 == "5" would return true, while 5 === "5" would return false.
+
+Q: What is the difference between prefix and postfix increment operators in JavaScript?
+
+A: The prefix increment operator (++x) first increments the value of x and then returns the new value, while the postfix increment operator (x++) first returns the current value of x and then increments it. For example, if x is 5, ++x would return 6, while x++ would return 5 and then set x to 6.
+
+Q: What are short-circuit operators in JavaScript?
+
+A: Short-circuit operators are logical operators that evaluate the second operand only if the first operand does not determine the final result. In JavaScript, the && operator is a short-circuit AND operator, while the || operator is a short-circuit OR operator.
+
+I hope these answers help clarify some common questions about operators in JavaScript!
+
+
+
+
+
+
+
+
+
+
+
+
