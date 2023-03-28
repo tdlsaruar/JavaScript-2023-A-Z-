@@ -1,0 +1,38 @@
+JavaScript conditional statements allow you to execute different blocks of code based on whether a certain condition is true or false. There are three main conditional statements in JavaScript:
+
+if statement: The if statement is used to execute a block of code if a condition is true. The syntax is as follows:
+if (condition) {
+  // execute this code if the condition is true
+}
+
+For example, the following code will output "Hello World!" if the variable x is greater than 10:
+var x = 15;
+
+if (x > 10) {
+  console.log("Hello World!");
+}
+
+else statement: The else statement is used to execute a block of code if the condition in the if statement is false. The syntax is as follows:
+if (condition) {
+  // execute this code if the condition is true
+} else {
+  // execute this code if the condition is false
+}
+
+else if statement: The else if statement is used to test multiple conditions. It's similar to the if statement but allows you to specify an additional condition if the first condition is false. The syntax is as follows:
+if (condition1) {
+  // execute this code if condition1 is true
+} else if (condition2) {
+  // execute this code if condition1 is false and condition2 is true
+} else {
+  // execute this code if all conditions are false
+}
+var x = 10;
+
+if (x > 10) {
+  console.log("Hello World!");
+} else if (x < 10) {
+  console.log("Goodbye!");
+} else {
+  console.log("Equal to 10!");
+}
