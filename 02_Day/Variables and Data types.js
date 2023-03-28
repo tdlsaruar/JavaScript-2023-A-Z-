@@ -30,10 +30,4 @@ console.log('a is '+a)
 
 // The let and const keywords were added to JavaScript in 2015.
 
-// If you want your code to run in older browsers, you must use var.Always declare JavaScript variables with var,let, orconst.
-
-// The var keyword is used in all JavaScript code from 1995 to 2015.
-
-// The let and const keywords were added to JavaScript in 2015.
-
-// If you want your code to run in older browsers, you must use var.
+// If you want your code to run in older browsers, you must use var.Always declare JavaScript variables with var,let, or const.
