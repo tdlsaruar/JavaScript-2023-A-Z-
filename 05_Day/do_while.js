@@ -1,0 +1,12 @@
+// do {
+    // code to be executed
+// }while (condition);
+
+// here's an example that uses a do while loop to print the numbers from 1 to 5:
+
+let i=1;
+do{
+    console.log(i);
+    i++;
+}
+while(i<=10);
