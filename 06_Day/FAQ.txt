@@ -1,0 +1,31 @@
+Here are some frequently asked questions about JavaScript objects:
+
+What is an object in JavaScript?
+An object is a collection of properties, which are key-value pairs, and methods, which are functions that belong to the object.
+
+How do you create an object in JavaScript?
+You can create an object in JavaScript using object literals or constructor functions. Object literals use curly braces to define the object, while constructor functions create objects using a blueprint.
+
+How do you access an object property in JavaScript?
+You can access an object property using dot notation or bracket notation. Dot notation uses the property name after the object, while bracket notation uses the property name in quotes inside the brackets.
+
+What is object destructuring in JavaScript?
+Object destructuring is a way to extract values from an object and assign them to variables. It can be a more concise way to access object properties.
+
+What is the difference between an object and an array in JavaScript?
+An object is a collection of key-value pairs, while an array is an ordered list of values. Objects are typically used when you want to associate data with named properties, while arrays are used when you want to store an ordered collection of values.
+
+Can you add or remove properties from an object in JavaScript?
+Yes, you can add or remove properties from an object using the dot notation or bracket notation. You can also use the delete keyword to remove a property.
+
+Can you create nested objects in JavaScript?
+Yes, you can create nested objects in JavaScript by assigning an object as a value of a property in another object.
+
+What is an object constructor in JavaScript?
+An object constructor is a function that creates new objects using a blueprint. The constructor function defines the properties and methods that each new object will have.
+
+What is prototypal inheritance in JavaScript?
+Prototypal inheritance is a way to share properties and methods between objects. In JavaScript, each object has a prototype, which is another object that it inherits properties and methods from.
+
+What is the this keyword in JavaScript objects?
+The this keyword refers to the object that the method or property belongs to. It is used to refer to the current object within a method.
