@@ -1,0 +1,89 @@
+Here are some frequently asked questions about basic JavaScript concepts that may be useful for an interview:
+
+1.What is JavaScript, and what are its features?
+JavaScript is a programming language that is primarily used for developing web applications.
+Some of its key features include dynamic typing, prototypal inheritance, and first-class functions.
+
+
+2.What are the different data types in JavaScript?
+JavaScript has several data types, including numbers, strings, booleans, null, undefined, objects, and symbols.
+
+3.What are variables in JavaScript, and how are they declared?
+Variables in JavaScript are used to store data values.
+They can be declared using the var, let, or const keywords, depending on the scope and mutability of the variable.
+
+
+4.What are operators in JavaScript, and what are some examples?
+Operators are symbols that are used to perform operations on variables or values.
+Some examples of operators in JavaScript include arithmetic operators (+, -, *, /, %), comparison operators (==, !=, ===, !==, >, <, >=, <=), and logical operators (&&, ||, !).
+
+5.What are control structures in JavaScript, and what are some examples?
+Control structures in JavaScript are used to control the flow of code based on certain conditions.
+Some examples of control structures in JavaScript include if-else statements, switch statements, and for and while loops.
+
+
+6.What are functions in JavaScript, and how are they declared?
+Functions in JavaScript are reusable blocks of code that perform a specific task.
+They are declared using the function keyword, followed by the function name and any parameters.
+
+
+7.What are arrays in JavaScript, and how are they declared?
+Arrays in JavaScript are used to store collections of data.
+They are declared using square brackets ([]), and can contain any data type.
+
+8.What are objects in JavaScript, and how are they declared?
+Objects in JavaScript are similar to arrays, but instead of using indexes to access values, they use keys.
+They are declared using curly braces ({}), and contain key-value pairs.
+
+9.What is the Document Object Model (DOM), and how is it used in JavaScript?
+The Document Object Model (DOM) is a programming interface for web documents.
+It allows JavaScript to interact with the structure and content of an HTML document, and manipulate it dynamically.
+
+10.What are events in JavaScript, and how are they handled?
+Events in JavaScript are actions that occur in response to user interactions with a web page.
+They are handled using event listeners, which are functions that execute when a specific event occurs (e.g. a button click).
+
+11.What is hoisting in JavaScript?
+Hoisting is a mechanism in JavaScript where variable and function declarations are moved to the top of their respective scopes (either global or function) during compilation.
+
+12.What is scope in JavaScript?
+Scope in JavaScript refers to the visibility and accessibility of variables and functions within a program.
+Variables and functions can have global scope (accessible throughout the program) or local scope (accessible only within a specific function or block).
+
+
+13.What is closure in JavaScript?
+A closure in JavaScript is a function that has access to variables in its parent function, even after the parent function has completed execution.
+Closures are created when a function returns another function that uses variables from the parent function.
+
+14.What is a callback function in JavaScript?
+A callback function is a function that is passed as an argument to another function, and is executed inside the other function.
+Callback functions are commonly used in asynchronous programming to handle the completion of a task.
+
+
+15.What is the difference between null and undefined in JavaScript?
+null is a value that represents the intentional absence of any object value.
+undefined is a value that represents an uninitialized, non-existent, or undefined variable or property.
+
+
+16.What is the difference between let and var in JavaScript?
+let and var are both used to declare variables, but let is block-scoped, while var is function-scoped.
+This means that let variables are only accessible within the block they are declared in, while var variables can be accessed anywhere within the function they are declared in.
+
+17.What is the difference between == and === in JavaScript?
+== is an equality operator that compares values for equality after type coercion (i.e. converting data types if necessary).
+=== is a strict equality operator that compares values for equality without type coercion.
+
+
+18.What are arrow functions in JavaScript?
+Arrow functions are a shorthand syntax for creating functions in JavaScript.
+They use a simpler syntax and have implicit return statements, and also have some differences in how they handle the this keyword compared to regular functions.
+
+19.What is the this keyword in JavaScript, and how is it used?
+The this keyword in JavaScript refers to the object that is currently executing the code.
+It can be used within a function or method to access or modify properties of the object that the function or method is attached to.
+
+20.What is the difference between synchronous and asynchronous programming in JavaScript?
+Synchronous programming refers to a programming model where tasks are executed in sequence, one after the other, and the program waits for each task to complete before moving on to the next.
+Asynchronous programming refers to a programming model where tasks can be executed concurrently, and the program does not wait for each task to complete before moving on to the next.
+
+
